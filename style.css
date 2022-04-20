@@ -1,0 +1,75 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;;
+}
+
+button{
+    border:none;
+    font-size: 25px;
+    
+}
+
+button:active{
+    opacity:5%;
+}
+
+#calcbody{
+    width: 541px;
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+#display{
+    border:2px solid lightgrey;
+    height:10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#lowerbody{
+    display: flex;
+    border: 2px solid lightgrey;
+}
+
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+  
+    width: 45vh;
+    height: 50vh;
+    gap: 2px;
+}
+
+#numbers > *:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+#numbers > *{
+    width: 7rem;
+    height:7rem;
+}
+
+#num0{
+    justify-self: center;
+}
+
+#operators{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#operators > *{
+    height:7rem;
+    width:12rem;
+
+}
+
+#operators > *:hover{
+    background-color: rgb(233, 233, 233);
+}
